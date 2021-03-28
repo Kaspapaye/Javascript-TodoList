@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>TODO list</title>
+    <!---->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="nofollow" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="my_style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+
+      <section class="row text-center">
+        <div id="myDIV" class="header col-12">
+          <h2>To Do List</h2>
+          <input type="text" id="myInput" onfocus="this.value=''" placeholder="à faire..."/>
+          <button id="button" type="button" class="btn btn-light">
+            Add Button
+          </button>
+        </div>
+      </section>
+
+      <section class="row text-center">
+        <ul id="myUL" class="col-12"></ul>
+      </section>    
+
+      <footer class="row"></footer>
+    </div>
+  </body>
+</html>
